@@ -1,0 +1,14 @@
+node_modules
+
+portal/node_modules
+modules/ddos/node_modules
+modules/education/node_modules
+
+public/dist
+public
+
+modules/ddos/dist
+modules/education/dist
+
+.DS_Store
+.idea/*

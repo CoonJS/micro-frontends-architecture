@@ -1,0 +1,19 @@
+{
+  "name": "micro-frontends-architecture",
+  "version": "1.0.0",
+  "description": "Demo example of micro frontends architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.dev.bi.zone:cyberspace/frontend/micro-frontends-architecture.git"
+  },
+  "author": "r.babanov@bi.zone",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

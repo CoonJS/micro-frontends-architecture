@@ -1,0 +1,31 @@
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #93a9d6;
+    font-family: monospace;
+}
+
+body {
+    flex: 1;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Link {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+}
+
+.Link a {
+    text-decoration: none;
+}
+
