@@ -9,9 +9,7 @@ export default class Index extends Component {
     /** @type {Message}*/
     this.messageService = this.$locator.Message;
 
-    this.state = {
-      currentRoute: this.props.location.pathname.split('service-b/')[1]
-    };
+    this.currentRoute = this.props.location.pathname.split('service-b/')[1];
   }
 
   componentDidMount() {
@@ -27,10 +25,8 @@ export default class Index extends Component {
   }
 
   render() {
-    const { currentRoute } = this.state;
-
     return (
-      <iframe id="service-b" src={`/service-b/#/${currentRoute || ''}`} frameBorder="0" style={{width: '100%', height: '100%'}}/>
+      <iframe id="service-b" src={`/service-b/#/${this.currentRoute || ''}`} frameBorder="0" style={{width: '100%', height: '100%'}}/>
     );
   }
 }

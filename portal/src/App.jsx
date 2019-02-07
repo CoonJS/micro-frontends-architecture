@@ -17,23 +17,20 @@ export default class App extends Component {
   render() {
     return (
       <Fragment>
-        <div style={{display: 'flex', justifyContent: 'space-between'}}>
-          <h1 style={{fontFamily: 'monospace', color: 'white'}}>MICRO FRONTENDS ARCHITECTURE</h1>
-          <div style={{display: 'flex'}}>
-            <div className="Link">
-              <Link to="/">Home</Link>
-            </div>
-            <div className="Link">
-              <Link to="/service-a">Service A</Link>
-            </div>
-            <div className="Link">
-              <Link to="/service-b">Service B</Link>
-            </div>
+        <div style={{display: 'flex', alignItems: 'center', backgroundColor: '#333', padding: '16px 32px'}}>
+          <div className="Link">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="Link">
+            <Link to="/service-a">Service A</Link>
+          </div>
+          <div className="Link">
+            <Link to="/service-b">Service B</Link>
           </div>
         </div>
         <Switch>
-          <Route path="/service-a" component={ServiceAPage}/>
           <Route path="/service-b" component={ServiceBPage}/>
+          <Route path="/service-a" component={ServiceAPage}/>
         </Switch>
       </Fragment>
     );
