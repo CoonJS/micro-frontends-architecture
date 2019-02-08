@@ -4,7 +4,7 @@ export default class Campaign extends Component {
 
   render() {
     return (
-      <h1>Campaign asdasdasdasd</h1>
+      <h1>Entities</h1>
     );
   }
 }
