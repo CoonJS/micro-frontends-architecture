@@ -23,7 +23,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: #333;
+    background: #fff;
     display: flex;
     align-items: center;
     padding: 0 12px;
@@ -33,9 +33,6 @@ body {
     padding: 12px;
 }
 
-.nav-menu a .menu-item {
-    color: #fff;
-}
 
 .page-container {
     margin-top: 52px;

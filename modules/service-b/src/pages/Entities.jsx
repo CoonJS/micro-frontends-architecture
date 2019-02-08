@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class Campaign extends Component {
+export default class Entities extends Component {
 
   render() {
     return (

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class CampaignCardPage extends Component {
+export default class EntitiesById extends Component {
 
   render() {
     return (

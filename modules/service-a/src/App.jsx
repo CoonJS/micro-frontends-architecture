@@ -24,7 +24,7 @@ export default class App extends Component {
           component: HomePage
         },
         {
-          title: 'Campaign page',
+          title: 'Entities page',
           key: 'page-a',
           link: '/campaign',
           component: CampaignPage

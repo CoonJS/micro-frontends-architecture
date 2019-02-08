@@ -4,8 +4,8 @@ import { Switch, Link, Route, withRouter } from 'react-router-dom';
 import './global.css';
 
 import HomePage from './pages/Home.jsx';
-import CampaignPage from './pages/Campaign.jsx';
-import CampaignCardPage from './pages/CampaignCard.jsx';
+import EntitiesPage from './pages/Entities.jsx';
+import EntitiesByIdPage from './pages/EntitiesById.jsx';
 
 @withRouter
 export default class App extends Component {
@@ -25,16 +25,16 @@ export default class App extends Component {
           component: HomePage
         },
         {
-          title: 'Campaign page',
-          key: 'page-a',
-          link: '/campaign',
-          component: CampaignPage
+          title: 'Entities page',
+          key: 'entities',
+          link: '/entities',
+          component: EntitiesPage
         },
         {
-          title: 'Campaign card page',
-          key: 'page-b',
-          link: '/campaign/12312312312',
-          component: CampaignCardPage
+          title: 'Entity by id',
+          key: 'entitiesById',
+          link: '/entities/12312312312',
+          component: EntitiesByIdPage
         }
       ]
     };
